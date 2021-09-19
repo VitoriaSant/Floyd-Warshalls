@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Floyd Warshalls</title>
+  </head>
+  <body>
+    <h2>Floyd Warshalls</h2>
+    <h3>Digite ( 1000 ) para infinito</h3>
+    <h3>Não aceita valor negativo</h3>
+    <p>
+      <input type="number" class="arrayBotao" id="ary00" size="3" />
+      <input type="number" class="arrayBotao" id="ary01" size="3" />
+      <input type="number" class="arrayBotao" id="ary02" size="3" />
+      <input type="number" class="arrayBotao" id="ary03" size="3" />
+    </p>
+    <p>
+      <input type="number" class="arrayBotao" id="ary10" size="3" />
+      <input type="number" class="arrayBotao" id="ary11" size="3" />
+      <input type="number" class="arrayBotao" id="ary12" size="3" />
+      <input type="number" class="arrayBotao" id="ary13" size="3" />
+    </p>
+    <p>
+      <input type="number" class="arrayBotao" id="ary20" size="3" />
+      <input type="number" class="arrayBotao" id="ary21" size="3" />
+      <input type="number" class="arrayBotao" id="ary22" size="3" />
+      <input type="number" class="arrayBotao" id="ary23" size="3" />
+    </p>
+    <p>
+      <input type="number" class="arrayBotao" id="ary30" size="3" />
+      <input type="number" class="arrayBotao" id="ary31" size="3" />
+      <input type="number" class="arrayBotao" id="ary32" size="3" />
+      <input type="number" class="arrayBotao" id="ary33" size="3" />
+    </p>
+    <button id="bntCalc" onclick="criandoArray()">Calcular</button>
+
+    <h1>Resultado:</h1>
+    <p id="linha0"></p>
+    <p id="linha1"></p>
+    <p id="linha2"></p>
+    <p id="linha3"></p>
+
+    <script type="text/javascript" src="./floyd.js"></script>
+  </body>
+</html>
